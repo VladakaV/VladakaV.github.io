@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Витченко Влада</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <body>
+        <header>
+            <div id = "header-logo-image">
+            </div>
+            <div id = "header-name" class = "header-content">
+                    <span>KOSMOS</span>
+            </div>
+        </header>
+        <nav>
+            <div id = "header-menu-nav">
+                <div class = "header-menu-links"> 
+                    <a href="http://kubsu.ru/">
+                        Ссылка
+                    </a>
+                </div>
+                <div class = "header-menu-links">
+                    <a href="http://kubsu.ru/">
+                        Ссылка
+                    </a>
+                </div>
+                <div class = "header-menu-links">
+                    <a href="http://kubsu.ru/">
+                        Ссылка
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <body-center>
+            <content>
+                <h1>Работа Витченко Влады</h1>
+                <ul>
+                    <li><a href = "http://kubsu.ru/">Cайт КубГУ</a></li>
+                    <li><a href = "https://kubsu.ru/">Cайт КубГУ</a></li>
+                    <li><a href = "http://kubsu.ru/"><img alt = "Красивая машина" src = "photo_2022-09-04_17-16-22.jpg" width="400px" height="400px"></a></li>
+                    <li><a href = "/Catalog1/Second-page.html">Сокращенная ссылка на внутреннюю страницу сайта</a></li>
+                    <li><a href = "/Main-page.html">Сокращенная ссылка на главную страницу сайта</a></li>
+                    <li><a href = "#form-first">Ссылка на фрагмент текущей страницы (на форму)</a></li>
+                    <li><a href = "https://www.kubsu.ru/ru/taxonomy/term/49?page=1&perpage=10&category=post">Ссылка с тремя параметрами</a></li>
+                    <li><a href = "https://www.kubsu.ru/ru/taxonomy/term/49?id=#zone-footer-wrapper">Ссылка c параметром id</a></li>
+                    <li><a href = "./Main-page.html">Относительная на страницу в текущем каталоге</a></li>
+                    <li><a href = "./Catalog1/Second-page.html">Относительная на страницу в каталоге 1</a></li>
+                    <li><a href = "./Catalog1/Second-page.html">Относительная на страницу в каталоге 1, где относительная на страницу в каталоге выше </a></li>
+                    <li><a href = "./Catalog1/Catalog2/Third-page.html">Относительная на страницу в каталоге 2, где относительная на страницу двумя каталогами выше</a></li>
+                    <li><p>Пример использования контекстной <a href = "http://kubsu.ru/">ссылки</a> в тексте абзаца</p></li>
+                    <li><a href = "https://www.film.ru/?ysclid=lm7dy07srm19356285#block-mpblocks-mpblocks-watch-now">Ссылка на фрагмент сайта Кинопоиск</a></li>
+                    <li>
+                        <map name = "rectangle">
+                            <area shape="rect" coords="70,70,700,380" href="https://www.kubsu.ru/node/38707" alt="Сайт КубГУ, прямоугольник">
+                            <area shape="circle" coords="360,750,220" href="https://kubsu.ru/" alt="Сайт КубГУ, круг">
+                        </map>
+                        <img src = "1646344779_1-kartinkin-net-p-kartinki-figuri-1.jpg" usemap="#rectangle" alt = "Картинка">
+                    </li>
+                    <li><a href = "">Пустая ссылка</a></li>
+                    <li><a>Ссылка без href</a></li>
+                    <li><a href = "http://kubsu.ru/" rel = "nofollow">Запрещенная для поисковиков ссылка</a></li>
+                    <li><a href = "http://kubsu.ru/" rel = "noindex">Запрещенная для индексации ссылка</a></li>
+                    <li>
+                        <ol>
+                            <li><a href = "https://kubsu.ru/" title = "Это">Сайт КубГУ</a></li>
+                            <li><a href = "https://kubsu.ru/" title = "Cайт">Сайт КубГУ</a></li>
+                            <li><a href = "https://kubsu.ru/" title = "Университета">Сайт КубГУ</a></li>
+                        </ol>
+                    </li>
+                </ul>
+
+                <table>
+                    <tr class = "table-row-chet">
+                        <th>Колонка 1</th>
+                        <th>Колонка 2</th>
+                        <th>Колонка 3</th>
+                        <th>Колонка 4</th>
+                    </tr>
+                    <tr class = "table-row-nechet">
+                        <td colspan="2">Объединены 2 ячейки</td>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr class = "table-row-chet">
+                        <td colspan="3">Объединены 3 ячейки</td>
+                        <th></th>
+                    </tr>
+                    <tr class = "table-row-nechet">
+                        <td colspan="4">Объедиены 4 ячейки</td>
+                    </tr>
+                    <tr class = "table-row-chet">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr class = "table-row-nechet">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr class = "table-row-chet">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+
+                <h2>Форма:</h2>
+
+                <form method="post" action = "/" id = "form-first">
+                    <label>ФИО</label><br>
+                    <input type="text" name = "field-name-surname"><br>
+                    <label>Телефон</label><br>
+                    <input type = "tel" name = "field-phone-number"><br>
+                    <label>Ваш email</label><br>
+                    <input type = "email" name = "field-email"><br>
+                    <label>Дата рождения</label><br>
+                    <input type = "date" name = "field-birthday"><br>
+                    <label>Ваш пол:</label>
+                    <label><input type="radio" name = "radio-sex" checked="checked" value = "Мужской">Мужской</label>
+                    <label><input type="radio" name = "radio-sex" value = "Женский">Женский</label><br>
+                    <label>Ваш любимый язык программирования:</label><br>
+                    <select multiple = "multiple" name = "field-favourite-pl">
+                        <option value = "Pascal">Pascal</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="Haskel">Haskel</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Prolog">Prolog</option>
+                        <option value="Scala">Scala</option>
+                    </select><br>
+                    <label>Биография</label><br>
+                    <textarea name = "field-biography">напишите о себе</textarea><br>
+                    <input type = "checkbox" name = "checkbox-agree">С контрактом ознакомлен<br>
+                    <input type = "submit" value="Отправить">
+                </form>
+
+            </content>
+        </body-center>
+        <footer>
+            <div class = "footer-text"> 
+                <span>(с) Влада Витченко</span>
+            </div>
+        </footer>
+
+    </body>
+</html>
