@@ -20,7 +20,7 @@ nav {
     margin-right: auto;
     background-color: rgba(190, 144, 239, 0.459);
 }
-content {
+.content {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,7 @@ content {
     flex-direction: column;
 }
 
-body-center {
+.body-center {
     background-image: url("fe614a6be04fe6d5b230bf0681d716cd.jpg");
     display: flex;
     background-attachment: fixed;
