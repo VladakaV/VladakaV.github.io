@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.kosmo-slider').slick({  
+    $(".kosmo-slider").slick({
    infinite: true,
    slidesToShow: 3,
    slidesToScroll: 3,
