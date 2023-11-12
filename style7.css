@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://million-wallpapers.ru/wallpapers/2/65/359090123377434/milliardy-yarkix-zvezd-na-nebe.jpg);
+    }
+    .photo{
+        width:100px;
+        height:100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10%;
+        border-radius: 15%;
+        margin: 0 auto;
+     }
+    .slide {
+      text-align: center;
+    }
+    h3 {
+      padding: 10%;
+      color:rgb(255, 255, 255);
+      font-family: courier;
+    }
+    .rev_slider{
+      margin: 0 auto;
+      padding: 10px;
+      margin-top: 15%;
+      width: 95%;
+      height: 50vh;
+    }
+    .slick-dots li button:before{
+        font-size:15px;
+        background-color:#ebdede;
+        border-radius: 50%;
+    }
+    
+    
+    
