@@ -1,0 +1,12 @@
+
+.button-popup {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(222, 192, 192);
+}
