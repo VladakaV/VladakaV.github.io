@@ -1,5 +1,5 @@
 function click1(event) {
-    window.location.href = 'https://vladakav.github.io/index3.html';
+    window.location.href = 'https://vladakav.github.io/index9.html';
 }
 
 
